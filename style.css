@@ -2,7 +2,7 @@ body {
   background-image: url(images/shara\ desert.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2vh 2vw 0 2vw;
+  padding: 2vh 2vw 2vh 2vw;
   color: white;
 }
 .header {
@@ -99,6 +99,7 @@ h1 {
   .box {
     width: 70vw;
     min-height: 200px;
+    margin-top: 20px;
     background-size: cover;
     padding: 20px;
     border-radius: 20px;
@@ -109,5 +110,10 @@ h1 {
   .header a {
     font-size: 10px;
     padding-right: 3vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-right: 0;
   }
 }
