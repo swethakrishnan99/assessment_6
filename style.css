@@ -108,8 +108,8 @@ h1 {
     margin: 40px 0 40px 0;
   }
   .header a {
-    font-size: 10px;
     padding-right: 3vw;
+    font-size: 10px;
   }
 }
 @media only screen and (max-width: 600px) {
